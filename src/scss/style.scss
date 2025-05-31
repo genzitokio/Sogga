@@ -1,5 +1,6 @@
-$bgColor: #24292e;
-$text: #fff;
+@import 'header';
+@import 'variables';
+@import 'icon';
 
 @font-face {
   font-family: 'Comic';
@@ -9,9 +10,7 @@ $text: #fff;
 }
 
 body {
-  padding: 1rem;
+  padding: 0;
   margin: 0;
   font-family: Comic, sans-serif;
-  background-color: $bgColor;
-  color: $text;
 }

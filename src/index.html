@@ -10,7 +10,50 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
-    <img src="./img/webpack.svg" alt="Webpack Logo" width="200px" />
-    <h3>Welcome to Webpack 4 starter </h3>
+    <header class="header">
+      <nav class="header__nav">
+        <div class="header__nav--left">
+          <a href="#" class="header__icon">
+            <svg class="icon">
+              <image href="src/img/burger.svg"/>
+            </svg>
+          </a>
+          <div class="header__deco-line"></div>
+          <div class="header__logo">
+            <svg class="logo">
+              <image href="src/img/logo.svg"/>
+            </svg>
+          </div>
+        </div>
+        <div class="header__nav--right">
+          <a href="#" class="header__icon">
+            <svg class="icon">
+              <image href="src/img/phone.svg"/>
+            </svg>
+          </a>
+          <a href="#" class="header__icon">
+            <svg class="icon">
+              <image href="src/img/phone.svg"/>
+            </svg>
+          </a>
+          <a href="#" class="header__icon">
+            <svg class="icon">
+              <image href="src/img/user.svg"/>
+            </svg>
+          </a>
+          <div class="header__deco-line"></div>
+          <a href="#" class="header__icon">
+            <svg class="icon">
+              <image href="src/img/tools.svg"/>
+            </svg>
+          </a>
+          <a href="#" class="header__icon">
+            <svg class="icon">
+              <image href="src/img/search.svg"/>
+            </svg>
+          </a>
+        </div>
+      </nav>
+    </header>
   </body>
 </html>
