@@ -18,3 +18,14 @@
   height: 51px;
   margin: 0px 10px 0px 10px;
 }
+
+.arrow--down {
+  width: 24px;
+  height: 24px;
+
+  image {
+    position: relative;
+    x: 25%;
+    y: 25%;
+  }
+}

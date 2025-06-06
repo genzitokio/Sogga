@@ -1,16 +1,15 @@
 @import 'header';
 @import 'variables';
+@import 'services';
 @import 'icon';
-
-@font-face {
-  font-family: 'Comic';
-  src: url('../fonts/comic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-}
+@import 'fonts';
 
 body {
   padding: 0;
   margin: 0;
   font-family: Comic, sans-serif;
+}
+
+main {
+  background-color: $bgColorM;
 }
