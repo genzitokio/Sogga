@@ -1,0 +1,46 @@
+.repair-type {
+  width: 100%;
+
+  .repair-type__list {
+    width: 100%;
+    margin: 25px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+
+    .repair-type__item {
+      box-sizing: border-box;
+      padding: 16px;
+      width: 224px;
+      height: 160px;
+      background-color: $bgColorW;
+      border: 1px solid $hlColor;
+      border-radius: 6px;
+      
+      a {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+
+        .repair-type__type {
+          height: 80px;
+          font-family: 'TTLakes Medium';
+          font-weight: 500;
+          font-size: 16px;
+        }
+
+        .round--arrow {
+          align-self:self-end;
+        }
+      }
+    }
+
+    .repair-type__item--hidden {
+      display: none;
+    }
+  }
+
+  .repair-type__show-all {
+    margin-left: 25px;
+  }
+}

@@ -1,0 +1,35 @@
+.repair-brands {
+  width: 100%;
+
+  .repair-brands__list {
+    width: 100%;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+
+
+    .repair-brands__item {
+      width: 240px;
+      height: 72px;
+      background-color: $bgColorW;
+      border: 1px solid $hlColor;
+      border-radius: 6px;
+
+      a {
+        margin: 15px;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+
+    .repair-brands__item--hidden {
+      display: none;
+    }
+  }
+
+  .repair-brands__show-all {
+    margin: 20px;
+    margin-top: 0;
+  }
+}

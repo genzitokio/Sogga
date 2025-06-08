@@ -1,0 +1,43 @@
+.price {
+  
+  .price__table-container {
+    width: 95%;
+    margin: 25px;
+
+    .price-table {
+      margin: 25px;
+      display: flex;
+      flex-direction: column;
+
+      :nth-child(n+2) {
+        background-color: $bgColorW;
+      }
+
+      :nth-child(n+3):nth-child(-n+5) {
+        border-bottom: 1px solid $hlColor;
+      }
+
+      .price-table__row {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+         
+        .price-table__services {
+          width: 50%;
+          align-self: center;
+        }
+
+        .price-table__info {
+          display: flex;
+
+          .price-table__price, 
+          .price-table__time,
+          .price-table__order {
+            margin-right: 20px;
+            align-self: center;
+          }
+        }
+      }
+    }
+  }
+}
