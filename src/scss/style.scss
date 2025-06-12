@@ -4,6 +4,10 @@
 @import 'repair-brands';
 @import 'repair-type';
 @import 'price';
+@import 'side-menu';
+@import 'feedback';
+@import 'call';
+@import 'footer';
 @import 'icon';
 @import 'fonts';
 
@@ -11,8 +15,5 @@ body {
   padding: 0;
   margin: 0;
   font-family: Comic, sans-serif;
-}
-
-main {
   background-color: $bgColorM;
 }

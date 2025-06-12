@@ -1,43 +1,101 @@
 .price {
   
   .price__table-container {
-    width: 95%;
-    margin: 25px;
+    width: 100%;
 
     .price-table {
       margin: 25px;
       display: flex;
       flex-direction: column;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: 'TTLakes Regular';
 
       :nth-child(n+2) {
         background-color: $bgColorW;
       }
 
-      :nth-child(n+3):nth-child(-n+5) {
+      :nth-child(n+2):nth-child(-n+5) {
         border-bottom: 1px solid $hlColor;
+      }
+
+      :nth-child(2) {
+        border-radius: 20px 20px 0px 0px;
+      }
+
+      :nth-child(6) {
+        border-radius: 0px 0px 20px 20px;
       }
 
       .price-table__row {
         display: flex;
         justify-content: space-between;
-        padding: 10px;
+        padding: 10px 0px 10px 0px;
+        border-left: 20px solid $bgColorW;
+        border-right: 20px solid $bgColorW;
          
         .price-table__services {
           width: 50%;
           align-self: center;
+          border: unset;
         }
 
         .price-table__info {
           display: flex;
+          border: unset;
 
           .price-table__price, 
           .price-table__time,
           .price-table__order {
+            border: unset;
             margin-right: 20px;
             align-self: center;
           }
         }
       }
+
+      .price-table__head {
+        background-color: $bgColorM;
+        color: $ltColorL;
+        border-left: 20px solid $bgColorM;
+        border-right: 20px solid $bgColorM;
+      }
+
+      .price-table__price {
+        width: 53.5px;
+      }
+
+      .price-table__time {
+        width: 90px;
+      }
+
+      .price-table__order {
+        width: 119px;
+        height: 32px;
+      }
     }
+  }
+
+  .price__comment {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'TTLakes Regular';
+    color: $ftColorB;
+    margin: 20px;
+    max-width:421px;
+    max-height: 60px;
+  }
+
+  .price__offer {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 350px;
+    text-decoration: none;
+    align-items: center;
+    margin: 20px;
+    cursor: pointer;
+    font-family: 'TTLakes Bold';
+    font-size: 16px;
+    font-weight: 500;
   }
 }

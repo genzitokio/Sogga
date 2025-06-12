@@ -83,6 +83,26 @@
       </section>
       <section class="repair-brands">
         <div class="section__name">Ремонт техники различных брендов</div>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            ...
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
         <div class="repair-brands__list">
           <div class="repair-brands__item"><a href=""><img src="src/img/brand.png" alt="" class="repair-brands__item__img"><svg class="round--arrow"><image href="src/img/arrow_right.svg"/></svg></a></div>
           <div class="repair-brands__item"><a href=""><img src="src/img/brand.png" alt="" class="repair-brands__item__img"><svg class="round--arrow"><image href="src/img/arrow_right.svg"/></svg></a></div>
@@ -115,7 +135,7 @@
         <div class="section__name">Цены на услуги</div>
         <div class="price__table-container">
           <div class="price-table">
-            <div class="price-table__row"><div class="price-table__services">Ремонтные услуги</div><div class="price-table__info"><div class="price-table__price">Цена</div><div class="price-table__time">Срок</div><div class="price-table__order"></div></div></div>
+            <div class="price-table__row price-table__head"><div class="price-table__services price-table__head">Ремонтные услуги</div><div class="price-table__info price-table__head"><div class="price-table__price price-table__head">Цена</div><div class="price-table__time price-table__head">Срок</div><div class="price-table__order price-table__head"></div></div></div>
             <div class="price-table__row"><div class="price-table__services">Замена дисплея</div><div class="price-table__info"><div class="price-table__price">1 000 ₽</div><div class="price-table__time">30-120 мин</div><div class="price-table__order"><div class="order-but">Заказать<svg class="arrow--order"><image href="src/img/order.svg"/></svg></div></div></div></div>
             <div class="price-table__row"><div class="price-table__services">Замена дисплея</div><div class="price-table__info"><div class="price-table__price">1 000 ₽</div><div class="price-table__time">30-120 мин</div><div class="price-table__order"><div class="order-but">Заказать<svg class="arrow--order"><image href="src/img/order.svg"/></svg></div></div></div></div>
             <div class="price-table__row"><div class="price-table__services">Замена дисплея</div><div class="price-table__info"><div class="price-table__price">1 000 ₽</div><div class="price-table__time">30-120 мин</div><div class="price-table__order"><div class="order-but">Заказать<svg class="arrow--order"><image href="src/img/order.svg"/></svg></div></div></div></div>
@@ -123,7 +143,113 @@
             <div class="price-table__row"><div class="price-table__services">Замена дисплея</div><div class="price-table__info"><div class="price-table__price">1 000 ₽</div><div class="price-table__time">30-120 мин</div><div class="price-table__order"><div class="arrow--order"><div class="order-but">Заказать<svg class="arrow--order"><image href="src/img/order.svg"/></svg></div></div></div></div></div>
           </div>
         </div>
+        <div class="price__comment">Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.</div>
+        <div href="" class="price__offer">Получить коммерческое предложение<svg class="arrow--down"><image href="src/img/arrow_right.svg"/></svg></div>
+      </section>
+      <section class="side-menu__container">
+        <div class="side-menu">
+          <div class="side-menu__but-group">
+            <a href="#" class="side-menu__icon">
+            <svg class="icon">
+              <image href="src/img/burger.svg"/>
+            </svg>
+          </a>
+          <div class="side-menu__logo">
+            <svg class="logo">
+              <image href="src/img/logo.svg"/>
+            </svg>
+          </div>
+          <a href="#" class="side-menu__icon">
+            <svg class="icon">
+              <image href="src/img/burger.svg"/>
+            </svg>
+          </a>
+          </div>
+          <div class="side-menu__main">
+            <nav class="side-menu__nav">
+              <ul class="side-menu__nav-list">
+                <li class="side-menu__list-i"><div class="side-menu__deco-line"></div>Услуги и сервисы</li>
+                <li class="side-menu__list-i"><div class="side-menu__deco-line"></div>Услуги и сервисы</li>
+                <li class="side-menu__list-i"><div class="side-menu__deco-line"></div>Услуги и сервисы</li>
+                <li class="side-menu__list-i"><div class="side-menu__deco-line"></div>Услуги и сервисы</li>
+                <li class="side-menu__list-i"><div class="side-menu__deco-line"></div>Услуги и сервисы</li>
+                <li class="side-menu__list-i"><div class="side-menu__deco-line"></div>Услуги и сервисы</li>
+                <li class="side-menu__list-i"><div class="side-menu__deco-line"></div>Услуги и сервисы</li>
+              </ul>
+            </nav>
+            <div class="side-menu__bottom">
+              <div class="side-menu__bot-buttons">
+                <a href="#" class="side-menu__but">
+                  <svg class="icon">
+                    <image href="src/img/burger.svg"/>
+                  </svg>
+                </a>
+                <a href="#" class="side-menu__but">
+                  <svg class="icon">
+                    <image href="src/img/burger.svg"/>
+                  </svg>
+                </a>
+                <a href="#" class="side-menu__but">
+                  <svg class="icon">
+                    <image href="src/img/burger.svg"/>
+                  </svg>
+                </a>
+              </div>
+              <div class="side-menu__mail">mail@cps.com</div>
+              <div class="side-menu__phone">8 800 890 8900</div>
+              <div class="side-menu__lang-block">
+                <div class="side-menu__lang-but">ru</div>
+                <div class="side-menu__lang-but">en</div>
+                <div class="side-menu__lang-but">ch</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="side-menu__gradient"></div>
+      </section>
+      <section class="feedback">
+        <div class="feedback__gradient"></div>
+        <div class="feedback__container">
+          <div class="feedback__h--full"><div class="feedback__h--deco"></div><h1 class="feedback__h">Обратная связь</h1></div>
+          <form action="" method="post">
+            <p>
+              <input type="text" name="name" id="name" placeholder="Имя" required>
+            </p>
+            <p>
+              <input type="tel" name="email" id="telephone" autocomplete="on" required placeholder="Телефон">
+            </p>
+            <p>
+              <input type="email" name="phone-number" id="email" autocomplete="on" required placeholder="Электронная почта">
+            </p>
+            <p>
+              <textarea id="text" name="message" rows="5" cols="33" placeholder="Сообщение"></textarea>
+            </p>
+            <p>Нажимая “отправить”, вы даете согласие на <span>обработку персональных данных</span> и соглашаетесь с нашей <span>политикой конфиденциальности</span></p>
+            <button type="submit">Отправить</button>
+          </form>
+        </div>
+      </section>
+      <section class="call">
+        <div class="call__gradient"></div>
+        <div class="call__container">
+          <div class="call__h--full"><div class="call__h--deco"></div><h1 class="call__h">Заказать звонок</h1></div>
+          <form action="" method="post">
+            <p>
+              <input type="tel" name="email" id="call" autocomplete="on" required placeholder="Телефон">
+            </p>
+            <p>Нажимая “отправить”, вы даете согласие на <span>обработку персональных данных</span> и соглашаетесь с нашей <span>политикой конфиденциальности</span></p>
+            <button type="submit">Отправить</button>
+          </form>
+        </div>
       </section>
     </main>
+    <footer class="footer">
+      <div class="footer__content">
+      <div class="footer__link">© 2019 CPS<br>  
+Разработано командой Apesong </div>
+      <div class="footer__link">Политика конфиденциальности</div>
+      <div class="footer__link">Информация, размещенная на данной странице, не является публичной офертой</div>
+    </div>
+    </footer>
   </body>
 </html>

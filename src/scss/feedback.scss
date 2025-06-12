@@ -1,0 +1,40 @@
+.feedback {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  display: none;//
+
+  .feedback__container {
+    background-color: $bgColorW;
+    width: 440px;
+    height: inherit;
+    .feedback__h--full {
+      display: flex;
+      justify-content: flex-start;
+      font-weight: 700;
+      font-size: 24px;
+      font-family: 'TTLakes Bold';
+
+      .feedback__h--deco {
+        width: 3px;
+        height: 40px;
+        background-color: $dlColorH;
+        border-bottom-right-radius: 4px;
+        border-top-right-radius: 4px;
+        align-self: center;
+        margin-right: 29px;
+      }
+    }
+  }
+
+  .feedback__gradient {
+    flex-grow: 1;
+    background-color: $bgColorW;
+    opacity: 0.8;
+  }
+}

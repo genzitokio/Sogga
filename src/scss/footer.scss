@@ -1,0 +1,19 @@
+.footer {
+  margin: 40px 20px 40px 20px;
+  padding: 40px 0px 0px 0px;
+  border-top: 1px solid $bdColorB;
+
+  .footer__content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'TTLakes Regular';
+    color: $ltColorL;
+
+    .footer__link {
+      cursor: pointer;
+    }
+  }
+}

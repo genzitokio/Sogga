@@ -2,7 +2,6 @@
   width: 100%;
 
   .repair-type__list {
-    width: 100%;
     margin: 25px;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -16,6 +15,7 @@
       background-color: $bgColorW;
       border: 1px solid $hlColor;
       border-radius: 6px;
+      cursor: pointer;
       
       a {
         display: flex;
